@@ -16,7 +16,7 @@ ulong SumNumbers(ulong number)
     return sum;
 }
 
-ulong SumGaussNumbers(ulong number)
+ulong GassSummm(ulong number)
 {
     return (number + 1) * number / 2;
 }
@@ -24,4 +24,6 @@ ulong SumGaussNumbers(ulong number)
 ulong num = Prompt("Введите число >");
 ulong result = SumNumbers(num);
 System.Console.WriteLine($"Сумма чисел равна {result}");
-System.Console.WriteLine($"Сумма чисел равна {SumGaussNumbers(num)}");
+System.Console.WriteLine($"Сумма чисел равна {GassSummm(num)}");
+
+Array[i] = new Random().Next(0,1)
